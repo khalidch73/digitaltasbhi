@@ -43,9 +43,9 @@ const PaymentCard: React.FC<PaymentCardProps> = ({
 
 const PaymentPage: React.FC = () => {
   return (
-    <div className='bg-gray-800 w-full h-screen'>
+    <div className='bg-gray-800 lg:w-full lg:h-screen'>
       <h2 className='text-center text-4xl font-bold text-slate-100'>Payment Options</h2>
-    <div className="text-lg text-slate-100 flex rounded-xl">
+    <div className="text-lg text-slate-100 lg:flex rounded-xl">
       {/* Jazzcash Payment Card */}
       <PaymentCard
         name="Jazzcash"
