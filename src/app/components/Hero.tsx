@@ -34,7 +34,7 @@ export const UpdateUI = () => {
       </div>
       <Navbar/>
       <div className="relative flex justify-center">
-        <div className="py-24">
+        <div className="md:py-24 py-10">
         <p className="font-bold text-slate-100 px-5 py-2 text-8xl">{value}</p>
         <span className="">
         <button className="bg-gradient-to-r from-red-900 to-yellow-300 p-10 rounded-full border transform transition-transform hover:scale-110" onClick={increment}>Count</button>
