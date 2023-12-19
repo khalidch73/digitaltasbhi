@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import Image from 'next/image'; // Import the next/image component
+import Image from 'next/image';
 import  Main  from "@/app/images/main.webp";
 import Navbar from "./Navbar";
 export const UpdateUI = () => {
@@ -11,7 +11,7 @@ export const UpdateUI = () => {
   };
 
   const reset = () => {
-    // Show a confirmation dialog
+    
     const confirmReset = window.confirm("Are you sure you want to reset?");
     
     // If the user clicks OK, reset the value
@@ -25,7 +25,7 @@ export const UpdateUI = () => {
     <div className="w-full h-screen">
       <div>
       <Image
-        src={Main} // Replace with your actual image path
+        src={Main} 
         alt="Background Image"
         layout="fill"
         objectFit="cover"
