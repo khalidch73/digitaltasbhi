@@ -17,7 +17,7 @@ const PaymentCard: React.FC<PaymentCardProps> = ({
   backgroundColor,
 }) => {
   return (
-  <div className='p-40 '>
+  <div className='md:p-40 p-10'>
     <div className="payment-card">
       <div className="card-header" style={{ backgroundColor }}>
         <h2>{name}</h2>
@@ -43,9 +43,9 @@ const PaymentCard: React.FC<PaymentCardProps> = ({
 
 const PaymentPage: React.FC = () => {
   return (
-    <div className='bg-gray-800 lg:w-full lg:h-screen'>
+    <div className='bg-gray-800 w-full h-auto lg:w-full lg:h-screen'>
       <h2 className='text-center text-4xl font-bold text-slate-100'>Payment Options</h2>
-    <div className="text-lg text-slate-100 lg:flex rounded-xl">
+    <div className="text-sm md:text-lg text-slate-100 grid grid-cols-1 md:grid md:grid-cols-3 rounded-xl">
       {/* Jazzcash Payment Card */}
       <PaymentCard
         name="Jazzcash"
