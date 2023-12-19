@@ -2,9 +2,9 @@ import React from 'react';
 const Navbar = () => {
   return (
     <nav className="text-slate-50 p-4 flex justify-around items-center fixed w-full">
-      <div className='text-lg'>یا رسول اللہ ﷺ</div>
-      <div className='text-4xl'>لآ اِلَهَ اِلّا اللّهُ مُحَمَّدٌ رَسُوُل اللّهِ</div>
-      <div className='text-lg'>اللّهُٰه عَزَّوَجَلَّ</div>
+      <div className='md:text-lg text-sm'>یا رسول اللہ ﷺ</div>
+      <div className='md:text-4xl text-lg'>لآ اِلَهَ اِلّا اللّهُ مُحَمَّدٌ رَسُوُل اللّهِ</div>
+      <div className='md:text-lg text-sm'>اللّهُٰه عَزَّوَجَلَّ</div>
     </nav>
   );
 };

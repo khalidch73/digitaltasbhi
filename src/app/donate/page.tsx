@@ -12,18 +12,9 @@ import Orphan08 from "@/app/images/orphan08.jpg"
 
 const DonationPage = () => {
   return (
-    <div className="w-full h-screen">
-       <div className="">
-        <Image
-          src={Orphan01} 
-          alt="Orphaned Children"
-          layout="fill"
-          objectFit="cover"
-          className="rounded-md"
-        />
-      </div>
-    <div className="relative text-center p-8 text-lg font-semibold text-slate-50">
-      <h1 className="text-4xl font-bold mb-6 text-yellow-600">Support Orphaned Children</h1>
+    <div className="w-full h-auto md:h-screen">
+    <div className="relative bg-gray-900 text-center md:p-8 md:text-lg font-semibold text-slate-50">
+      <h1 className="md:text-4xl text-2xl font-bold md:mb-6 text-yellow-600">Support Orphaned Children</h1>
       <p className="text-lg mb-6">
         Every child deserves a loving home, a warm meal, and the chance to dream. In the heart of our charity, we stand together to make a difference in the lives of orphaned children who long for the warmth of family and the hope for a brighter future.
       </p>
@@ -108,7 +99,13 @@ const DonationPage = () => {
           src={Orphan03} 
           alt="Orphaned Children"
           className="rounded-md"
-         
+        />
+        </span>
+        <span>
+        <Image
+          src={Orphan01} 
+          alt="Orphaned Children"
+          className="rounded-md"
         />
         </span>
       </div>
