@@ -17,7 +17,8 @@ const PaymentCard: React.FC<PaymentCardProps> = ({
   backgroundColor,
 }) => {
   return (
-  <div className='lg:p-40 p-10'>
+  <div className='lg
+  :p-40 p-10'>
     <div className="payment-card">
       <div className="card-header" style={{ backgroundColor }}>
         <h2>{name}</h2>
